@@ -4,7 +4,7 @@ import './hero.css';
 
 function Hero({ scrollToSection }) {
   return (
-    <div className="hero" style={{ padding: '100px 0'}}>
+    <div className="hero" style={{ padding: '99px 0'}}>
       <Container className="text-center">
         <h1>Worthy by Yanira</h1>
         <p className="lead">
