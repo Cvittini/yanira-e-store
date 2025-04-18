@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+.hero {
+  background: linear-gradient(to bottom right, #4b1d5e, #7b2cbf),
+              url('/src/assets/images/blkpurpgradient.webp') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-family: 'Great Vibes', cursive;
+  color: #f2c94c;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #fff;
+}
+
+.hero button {
+  background-color: #f2c94c;
+  color: #4b1d5e;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #ffd700;
+  color: #4b1d5e;
+}
+
+  

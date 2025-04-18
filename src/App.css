@@ -1,0 +1,51 @@
+body {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.btn-primary {
+  background-color: #ff69b4;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e0559c;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+footer svg {
+  transition: 0.3s ease;
+}
+footer a:hover svg {
+  transform: scale(1.2);
+}
+
+
+
+

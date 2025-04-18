@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .custom-navbar {
+    background: transparent;
+    font-family: 'Playfair Display', serif;
+    padding: 0.75rem 1rem;
+    box-shadow: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-navbar.scrolled {
+    background: linear-gradient(to right, #4b1d5e, #5e2c82) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .custom-navbar .nav-link {
+    color: #f2c94c !important;
+    font-weight: 500;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #fffacd !important;
+  }
+  
+  
