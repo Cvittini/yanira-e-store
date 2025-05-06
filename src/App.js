@@ -42,23 +42,22 @@ function App() {
         <Hero scrollToSection={scrollToSection} />
       </div>
 
-      <div ref={howitworksRef}>
-        <HowItWorks scrollToSection={scrollToSection} />
-      </div>
-
       <ParallaxSection
         backgroundImage="/images/dooddleiconbg.webp"
         text="Shop Unique Stickers"
       />
+
+      <div ref={howitworksRef}>
+        <HowItWorks scrollToSection={scrollToSection} />
+      </div>
+
+      
 
       <div ref={featuredRef}>
         <Featured />
       </div>
 
-      <ParallaxSection
-        backgroundImage="/images/dooddleiconbg.webp"
-        text="Shop Unique Stickers"
-      />
+      
 
       <div ref={categoriesRef}>
         <Categories />
