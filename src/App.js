@@ -7,6 +7,7 @@ import Featured from "./components/featured";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import ParallaxSection from './components/ParallaxSection';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -45,13 +46,28 @@ function App() {
         <HowItWorks scrollToSection={scrollToSection} />
       </div>
 
+      <ParallaxSection
+        backgroundImage="/images/dooddleiconbg.webp"
+        text="Shop Unique Stickers"
+      />
+
       <div ref={featuredRef}>
         <Featured />
       </div>
 
+      <ParallaxSection
+        backgroundImage="/images/dooddleiconbg.webp"
+        text="Shop Unique Stickers"
+      />
+
       <div ref={categoriesRef}>
         <Categories />
       </div>
+
+      <ParallaxSection
+        backgroundImage="/images/dooddleiconbg.webp"
+        text="Shop Unique Stickers"
+      />
 
       <div ref={aboutRef}>
         <About />
